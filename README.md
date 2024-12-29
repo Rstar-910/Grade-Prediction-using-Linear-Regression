@@ -36,3 +36,31 @@ The dataset was sourced from the [UCI Machine Learning Repository](https://archi
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/<your-username>/grade-prediction.git
+2. **Navigate to the project directory:**:
+   ```bash
+   cd grade-prediction
+3. **Install the required dependencies manually by running:**:
+   ```bash
+   pip install pandas numpy scikit-learn matplotlib
+4. **Run the script:**:
+   ```bash
+   python grade_prediction.py
+
+---
+
+## 📊 Results
+The linear regression model achieves high accuracy in predicting student grades based on the provided dataset. Additionally, the project visualizes:
+
+- Correlations between input features and target grades.
+- The predicted vs. actual grades for a better understanding of model performance.
+
+---
+
+## 📌 Acknowledgements
+- Dataset: The data used in this project is sourced from the UCI Machine Learning Repository.
+- Libraries: Special thanks to the developers of scikit-learn, pandas, numpy, and matplotlib for providing robust tools for data analysis, visualization, and machine - learning.
+
+---
+
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome! Feel free to fork the repository and submit pull requests.
